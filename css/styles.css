@@ -1,0 +1,1053 @@
+.HeaderPrincipal {
+  border: 2px solid black;
+}
+
+.BackGround {
+  background-image: url(../../Img/Tikitos.jpg);
+  width: 100%;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.nav-link {
+  margin-left: 1rem;
+}
+
+.ContenedorHeaderPlacas h1 {
+  text-align: center;
+  margin-top: 2rem;
+  text-decoration: underline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.ContenedorHeaderNosotros {
+  height: 9rem;
+  background-color: rgba(0, 0, 0, 0.61);
+  border-bottom: 3px solid burlywood;
+}
+
+.ContenedorBody-Nosotros {
+  background-color: rgba(255, 228, 196, 0.445);
+}
+
+.ContenedorTituloNegocio {
+  text-align: center;
+  margin-top: 2rem;
+  text-decoration: underline;
+  color: #FFF;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ContenedorTituloNegocio h1 {
+  font-weight: 550;
+}
+
+.HeaderNosotros {
+  height: 9rem;
+  background-image: url(../../Img/patitasfondo.jpg);
+  background-size: contain;
+}
+
+.HeaderConsejos {
+  height: 10rem;
+  background-color: rgb(24, 92, 69);
+}
+
+.TituloPrincipal-Consejos {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 2rem;
+}
+
+.HeaderAlimentos {
+  background-image: url(../../Img/alimentosimgbanner.jpg);
+  height: 15rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+}
+
+.ContenedorTituloAlimentos {
+  height: 13rem;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.ContenedorTituloAlimentos h1 {
+  font-size: 1.1rem;
+  margin-right: 7px;
+}
+
+.HeaderAccesorios {
+  background-image: url(../../Img/accesorios.jpg);
+  height: 15rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+}
+
+.ContenedorTituloAccesorios {
+  height: 13rem;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.ContenedorTituloAccesorios h1 {
+  font-size: 1.1rem;
+  margin-right: 7px;
+}
+
+.HeaderIndumentaria {
+  background-image: url(../../Img/perrosindu.jpg);
+  height: 15rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center 20%;
+}
+
+.ContenedorTituloIndumentaria {
+  height: 13rem;
+  display: flex;
+  justify-content: end;
+}
+.ContenedorTituloIndumentaria h1 {
+  font-size: 1.1rem;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .HeaderIndumentaria {
+    background-image: url(../../Img/perrosindu.jpg);
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center 20%;
+  }
+  .ContenedorTituloAccesorios {
+    height: 13rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+  .ContenedorTituloAccesorios h1 {
+    font-size: 2rem;
+    margin-right: 7px;
+  }
+  .ContenedorTituloAlimentos {
+    height: 13rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+  .ContenedorTituloAlimentos h1 {
+    font-size: 1.5rem;
+    margin-right: 7px;
+  }
+  .ContenedorTituloIndumentaria {
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+  }
+  .ContenedorTituloIndumentaria h1 {
+    font-size: 2.3rem;
+    margin-right: 3rem;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .BackGround {
+    background-image: url(../../Img/Tikitos.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .ContenedorHeaderNosotros {
+    height: 15rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-bottom: 3px solid burlywood;
+  }
+  .ContenedorBody-Nosotros {
+    background-color: rgba(255, 228, 196, 0.445);
+  }
+  .ContenedorTituloNegocio {
+    text-align: center;
+    margin-top: 3rem;
+    text-decoration: underline;
+    color: #FFF;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .ContenedorTituloNegocio h1 {
+    font-weight: 550;
+    font-size: 3rem;
+  }
+  .HeaderNosotros {
+    height: 15rem;
+    background-image: url(../../Img/patitasfondo.jpg);
+    background-size: contain;
+  }
+  .HeaderConsejos {
+    height: 15rem;
+    background-color: rgb(24, 92, 69);
+    border: 2px solid black;
+  }
+  .TituloPrincipal-Consejos {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 4rem;
+  }
+  .HeaderAlimentos {
+    background-image: url(../../Img/alimentosimgbanner.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center center;
+  }
+  .ContenedorTituloAlimentos {
+    height: 22rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+  .ContenedorTituloAlimentos h1 {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: black;
+  }
+  .HeaderAccesorios {
+    background-image: url(../../Img/accesorios.jpg);
+    height: 25rem;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+  }
+  .ContenedorTituloAccesorios {
+    height: 23rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+  }
+  .ContenedorTituloAccesorios h1 {
+    font-size: 2.3rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
+  }
+  .HeaderIndumentaria {
+    background-image: url(../../Img/perrosindu.jpg);
+    height: 38rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center 23%;
+  }
+  .ContenedorTituloIndumentaria {
+    height: 33rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+  }
+  .ContenedorTituloIndumentaria h1 {
+    font-size: 2.3rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
+  }
+}
+.wathsapp {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .wathsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+    display: block;
+  }
+}
+.ContenedorMain-Principal {
+  background-image: url(../../Img/fondo-principal.jpg);
+  background-size: auto;
+}
+
+.ContenedorPromos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 18rem;
+  margin-top: 3rem;
+  border: 2px solid black;
+  background-color: rgba(255, 228, 196, 0.89);
+}
+.card img {
+  border-bottom: 2px solid black;
+  height: 23rem;
+}
+.card h5 {
+  text-align: center;
+  text-decoration: underline;
+}
+.card p {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContenedorHorarios {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  height: 25rem;
+}
+.ContenedorHorarios .ContenedorImagenHorarios {
+  border-radius: 1rem;
+  border: 2px solid rgb(83, 3, 3);
+  width: 18.5rem;
+  height: 19rem;
+}
+.ContenedorHorarios img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.ContenedorFormulario {
+  background-color: rgba(226, 154, 71, 0.685);
+  margin-top: 6rem;
+}
+
+.Contenedor-PadreNegocio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contenedor-CardNegocio {
+  margin-top: 2rem;
+  height: 30rem;
+  width: 95%;
+  border: 3px solid burlywood;
+  border-radius: 1rem;
+  background-color: rgba(226, 154, 71, 0.342);
+}
+
+.Contenedor-ImgNegocio {
+  background-image: url(../../Img/WhatsApp\ Image\ 2024-08-24\ at\ 20.58.08.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+  height: 20rem;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.Contenedor-ImgNegocio img {
+  width: 100%;
+}
+
+.Contenedor-ParrafoNegocio {
+  margin-top: 5px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+.Contenedor-ParrafoNegocio p {
+  margin-top: 10px;
+  font-size: 8.9px;
+  font-weight: 500;
+}
+
+.TituloDelivery {
+  text-decoration: underline;
+  margin-top: 3rem;
+  text-align: center;
+  color: rgba(71, 0, 0, 0.774);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.TituloDelivery h2 {
+  font-weight: 550;
+}
+
+.ContenedorPadre-Delivery {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40rem;
+}
+.ContenedorPadre-Delivery .ContenedorCard-Delivery {
+  border: 3px solid burlywood;
+  border-radius: 1rem;
+  width: 90%;
+  height: 35rem;
+  background-color: rgba(226, 154, 71, 0.342);
+}
+.ContenedorPadre-Delivery .ContenedorParrafo-Delivery {
+  margin-top: 5px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+.ContenedorPadre-Delivery .ContenedorParrafo-Delivery p {
+  margin-top: 5px;
+  font-size: 8.9px;
+  font-weight: 500;
+}
+.ContenedorPadre-Delivery .ContenedorImg-Delivery {
+  width: 100%;
+  height: 24rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.ContenedorPadre-Delivery .ContenedorImg-Delivery img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+  height: 24rem;
+}
+
+.ContenedorTips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ContenedorTips .ContenedorCard-Tips {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  height: 40rem;
+  background-color: rgba(226, 154, 71, 0.342);
+  width: 90%;
+}
+.ContenedorTips .ContenedorImg-Tips {
+  width: 100%;
+}
+.ContenedorTips .ContenedorImg-Tips img {
+  width: 100%;
+  height: 18rem;
+}
+.ContenedorTips .ContenedorTextos-Tips {
+  margin-top: 2rem;
+  text-align: center;
+  width: 95%;
+}
+.ContenedorTips .ContenedorTextos-Tips p {
+  font-weight: 600;
+  text-align: center;
+}
+
+.Vacunas {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  height: 33rem;
+}
+.Vacunas .Contenedor-Vacunas {
+  width: 90%;
+  height: 28rem;
+}
+.Vacunas img {
+  width: 100%;
+  height: 28rem;
+}
+
+.ContenedorCarousel {
+  border: 2px solid black;
+}
+.ContenedorCarousel h2 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.ContenedorCarousel .carousel-indicators {
+  margin: 0;
+  bottom: 0px;
+}
+.ContenedorCarousel .carousel-inner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.ContenedorCarousel .carousel-item {
+  margin: 0;
+  width: max-content;
+  height: 31rem;
+  text-align: center;
+}
+.ContenedorCarousel .carousel-item img {
+  height: 23rem;
+  width: 100%;
+}
+.ContenedorCarousel .carousel-caption {
+  margin: 0;
+  padding: 0;
+}
+.ContenedorCarousel .carousel-caption p {
+  font-size: 1.3rem;
+}
+
+.PreciosDescuento {
+  text-decoration: line-through;
+}
+
+.ContenedorProductos {
+  background-color: rgba(245, 219, 185, 0.541);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.ContenedorCardProductos {
+  background-image: url(../../Img/fondocardalimentos.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 17rem;
+  height: 30rem;
+  border: 3px solid red;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.ContenedorCardProductos .ContenedorTextoProductos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: baseline;
+  height: 8rem;
+}
+.ContenedorCardProductos .ContenedorTextoProductos p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.ContenedorCardProductos .ContenedorImgProductos {
+  width: 100%;
+  height: 17rem;
+}
+.ContenedorCardProductos .ContenedorImgProductos img {
+  width: 100%;
+  border-top-left-radius: 1.8rem;
+  border-top-right-radius: 1.8rem;
+  height: 100%;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+  .Contenedor-ParrafoNegocio {
+    margin-top: 5px;
+    text-align: center;
+    border-top: 1px solid black;
+  }
+  .Contenedor-ParrafoNegocio p {
+    padding: 7px;
+    margin-top: 2px;
+    font-size: 11.6px;
+    font-weight: 500;
+  }
+  .ContenedorParrafo-Delivery {
+    margin-top: 5px;
+    text-align: center;
+    border-top: 1px solid black;
+  }
+  .ContenedorParrafo-Delivery p {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .ContenedorTips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ContenedorTips .ContenedorCard-Tips {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 28rem;
+    background-color: rgba(226, 154, 71, 0.342);
+    width: 30rem;
+  }
+  .ContenedorTips .ContenedorImg-Tips {
+    width: 100%;
+    height: 15rem;
+  }
+  .ContenedorTips .ContenedorImg-Tips img {
+    width: 100%;
+    height: 100%;
+  }
+  .ContenedorTips .ContenedorTextos-Tips {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .ContenedorTips .ContenedorTextos-Tips h2 {
+    font-size: 1.4rem;
+  }
+  .ContenedorTips .ContenedorTextos-Tips p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+  }
+  .Vacunas {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+  }
+  .Vacunas .Contenedor-Vacunas {
+    border: 2px solid black;
+    width: 28rem;
+    height: 20rem;
+  }
+  .Vacunas img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Contenedor-ParrafoNegocio {
+    margin-top: 5px;
+    text-align: center;
+    border-top: 1px solid black;
+  }
+  .Contenedor-ParrafoNegocio p {
+    padding: 7px;
+    margin-top: 2px;
+    font-size: 13.5px;
+    font-weight: 500;
+  }
+  .ContenedorPromos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    border: 2px solid black;
+    background-color: rgba(255, 228, 196, 0.89);
+    width: 45rem;
+    height: 30rem;
+  }
+  .card img {
+    border-bottom: 2px solid black;
+    height: 30rem;
+    width: 25rem;
+  }
+  .card h5 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .card p {
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+  }
+  .ContenedorHorarios {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    height: 35rem;
+  }
+  .ContenedorHorarios .ContenedorImagenHorarios {
+    border-radius: 1rem;
+    border: 2px solid rgb(83, 3, 3);
+    width: 40rem;
+    height: 30rem;
+  }
+  .ContenedorHorarios img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .ContenedorPadre-Delivery {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+  }
+  .ContenedorPadre-Delivery .ContenedorCard-Delivery {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid burlywood;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 24.5rem;
+    background-color: rgba(226, 154, 71, 0.342);
+  }
+  .ContenedorPadre-Delivery .ContenedorParrafo-Delivery {
+    text-align: center;
+    width: 20rem;
+  }
+  .ContenedorPadre-Delivery .ContenedorParrafo-Delivery p {
+    margin-top: 5px;
+    font-size: 11.4px;
+    padding: 3px;
+  }
+  .ContenedorPadre-Delivery .ContenedorImg-Delivery {
+    width: 100%;
+    height: 24rem;
+  }
+  .ContenedorPadre-Delivery .ContenedorImg-Delivery img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 24.1rem;
+  }
+  .ContenedorTips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ContenedorTips .ContenedorCard-Tips {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 26rem;
+    background-color: rgba(226, 154, 71, 0.342);
+    width: 40rem;
+  }
+  .ContenedorTips .ContenedorImg-Tips {
+    width: 25rem;
+    height: 25.7rem;
+  }
+  .ContenedorTips .ContenedorImg-Tips img {
+    width: 100%;
+    height: 100%;
+  }
+  .ContenedorTips .ContenedorTextos-Tips {
+    margin-top: 2rem;
+    text-align: center;
+    width: 15rem;
+    height: 100%;
+  }
+  .ContenedorTips .ContenedorTextos-Tips h2 {
+    font-size: 1.7rem;
+  }
+  .ContenedorTips .ContenedorTextos-Tips p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+  }
+  .Vacunas {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    height: 33rem;
+  }
+  .Vacunas .Contenedor-Vacunas {
+    border: 2px solid black;
+    width: 40rem;
+    height: 32rem;
+  }
+  .Vacunas img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .ContenedorPromos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    border: 2px solid black;
+    background-color: rgba(255, 228, 196, 0.89);
+    width: 55rem;
+    height: 35rem;
+  }
+  .card img {
+    border-right: 1px solid black;
+    height: 100%;
+    width: 30rem;
+  }
+  .card h5 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .card p {
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+  }
+  .ContenedorHorarios {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    height: 35rem;
+  }
+  .ContenedorHorarios .ContenedorImagenHorarios {
+    border-radius: 1rem;
+    border: 2px solid rgb(83, 3, 3);
+    width: 40rem;
+    height: 30rem;
+  }
+  .ContenedorHorarios img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .Contenedor-CardNegocio {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    height: 30rem;
+    width: 55rem;
+    border: 3px solid burlywood;
+    border-radius: 1rem;
+    background-color: rgba(226, 154, 71, 0.342);
+  }
+  .Contenedor-ImgNegocio {
+    background-image: url(../../Img/WhatsApp\ Image\ 2024-08-24\ at\ 20.58.08.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 35rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .Contenedor-ImgNegocio img {
+    width: 100%;
+  }
+  .Contenedor-ParrafoNegocio {
+    width: 20rem;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .Contenedor-ParrafoNegocio p {
+    font-size: 16.5px;
+    margin-top: 3px;
+    padding: 5px;
+  }
+  .ContenedorPadre-Delivery {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    margin-bottom: 5rem;
+  }
+  .ContenedorPadre-Delivery .ContenedorCard-Delivery {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid burlywood;
+    border-radius: 1rem;
+    width: 55rem;
+    height: 30rem;
+    background-color: rgba(226, 154, 71, 0.342);
+  }
+  .ContenedorPadre-Delivery .ContenedorParrafo-Delivery {
+    text-align: center;
+    width: 20rem;
+  }
+  .ContenedorPadre-Delivery .ContenedorParrafo-Delivery p {
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+  }
+  .ContenedorPadre-Delivery .ContenedorImg-Delivery {
+    height: 100%;
+    width: 35rem;
+  }
+  .ContenedorPadre-Delivery .ContenedorImg-Delivery img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .ContenedorTips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ContenedorTips .ContenedorCard-Tips {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    height: 30rem;
+    background-color: rgba(99, 71, 226, 0.342);
+    width: 60rem;
+  }
+  .ContenedorTips .ContenedorImg-Tips {
+    width: 40rem;
+    height: 100%;
+  }
+  .ContenedorTips .ContenedorImg-Tips img {
+    width: 100%;
+    height: 100%;
+  }
+  .ContenedorTips .ContenedorTextos-Tips {
+    margin-top: 2rem;
+    text-align: center;
+    width: 20rem;
+  }
+  .ContenedorTips .ContenedorTextos-Tips p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .Vacunas {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    height: 45rem;
+  }
+  .Vacunas .Contenedor-Vacunas {
+    width: 60rem;
+    height: 100%;
+  }
+  .Vacunas img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.FooterPrincipal {
+  background-image: url(../../Img/footerbk.jpg);
+  background-size: contain;
+}
+
+.ContactoFooter {
+  border-top: 3px solid rgb(211, 177, 134);
+  height: 26rem;
+  background-color: rgba(211, 98, 5, 0.555);
+}
+.ContactoFooter p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.ContactoFooter ul {
+  list-style: none;
+  padding: 0;
+}
+.ContactoFooter li {
+  text-align: center;
+}
+
+.ContenedorFooterAlimentos {
+  background-image: url(../../Img/veterinarias.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 22rem;
+  background-repeat: no-repeat;
+}
+
+.ContenedorContactoVeterinarias {
+  height: 20rem;
+}
+.ContenedorContactoVeterinarias h2 {
+  text-align: center;
+  color: rgba(71, 0, 0, 0.774);
+  font-size: 1.2rem;
+}
+.ContenedorContactoVeterinarias ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+  height: 20rem;
+  text-align: center;
+}
+.ContenedorContactoVeterinarias ul li {
+  list-style: none;
+}
+.ContenedorContactoVeterinarias ul p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(250, 7, 7);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .ContactoFooter p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .ContenedorFooterAlimentos {
+    background-image: url(../../Img/veterinarias.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 23rem;
+    background-repeat: repeat;
+  }
+  .ContenedorContactoVeterinarias {
+    height: 20rem;
+  }
+  .ContenedorContactoVeterinarias h2 {
+    text-align: center;
+    color: rgba(71, 0, 0, 0.774);
+    font-size: 2rem;
+  }
+  .ContenedorContactoVeterinarias ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+    height: 20rem;
+    text-align: center;
+  }
+  .ContenedorContactoVeterinarias ul li {
+    list-style: none;
+  }
+  .ContenedorContactoVeterinarias ul p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(250, 7, 7);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
